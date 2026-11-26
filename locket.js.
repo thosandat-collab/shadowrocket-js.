@@ -86,7 +86,7 @@ if (match) {
   let [e, s] = mapping[match];
   
   if (s) {
-    dohungx.product_identifier = s;
+    minhdatt.product_identifier = s;
     obj.subscriber.subscriptions[s] = locket02;
   } else {
     obj.subscriber.subscriptions["com.locket02.premium.yearly"] = locket02;
